@@ -118,7 +118,7 @@ const Home = () => {
               survived not only five centuries, but also the leap into
               electronic typesetting, remaining essentially unchanged.
             </p>
-            <a href="#" className="buttonStyle">
+            <a href="/#" className="buttonStyle">
               Saiba mais
             </a>
           </div>

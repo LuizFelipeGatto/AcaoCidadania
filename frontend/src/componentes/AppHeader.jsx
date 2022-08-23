@@ -9,7 +9,7 @@ const AppHeader = (props) => {
     <Navbar id="navH" bg="white" expand="lg" className="box-shadow">
       <Row>
         <Col md={6}>
-          <Navbar.Brand href="#/">
+          <Navbar.Brand href="/">
             <img
               className="pl-md-5"
               src={logoAcao ? logoAcao : null}
@@ -21,7 +21,7 @@ const AppHeader = (props) => {
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="mt-4 mx-5">
-              <Nav.Link href="/#/" className="titleQuatro mr-2">
+              <Nav.Link href="/" className="titleQuatro mr-2">
                 Início
               </Nav.Link>
               <Nav.Link
@@ -52,7 +52,7 @@ const AppHeader = (props) => {
             <Nav className="text-center mt-3">
               {!props.authenticated && !props.currentUser ? (
                 <>
-                  <Nav.Link href="#/login" className="buttonStyle">
+                  <Nav.Link href="/login" className="buttonStyle">
                     Login
                   </Nav.Link>
                 </>

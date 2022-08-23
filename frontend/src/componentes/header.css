@@ -1,0 +1,132 @@
+.links {
+  color: #165ca6 !important;
+  font-size: 1.4rem;
+}
+
+.fa-file-text {
+  font-size: 22px;
+  color: #165ca6;
+}
+
+#na2 .dropdown-toggle::after {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  margin-left: 0.255em;
+  vertical-align: 0.255em;
+  content: none !important;
+  border-top: 0.3em solid;
+  border-right: 0.3em solid transparent;
+  border-bottom: 0;
+  border-left: 0.3em solid transparent;
+}
+
+#na2 .nav-link {
+  color: #165ca6 !important;
+}
+
+#na2 a:active {
+  color: #fff !important;
+}
+
+#na2 .nav-link:hover {
+  color: #fff !important;
+}
+
+.links2 {
+  color: #fff !important;
+  font-size: 1.2rem;
+  background-color: #165ca6;
+  border-radius: 5px;
+}
+
+.colorLeg {
+  color: #165ca6;
+}
+
+.whats {
+  cursor: pointer;
+}
+
+.links2:hover {
+  color: #165ca6 !important;
+  background-color: #fff;
+  transition: 250ms;
+}
+
+.nome .linkNome a {
+  color: #fff !important;
+  font-size: 1.2rem;
+  background-color: #165ca6;
+  border-radius: 5px;
+}
+
+.nome .linksNome a:hover {
+  color: #165ca6 !important;
+  background-color: #fff;
+}
+
+/* .links:hover {
+  color: #0f182e !important;
+  background-color: #dfdbdb;
+  border-radius: 7%;
+} */
+
+.links:hover {
+  color: #fff !important;
+  background-color: #165ca6;
+  border-radius: 5px;
+  transition: 250ms;
+}
+
+#navH .fa-rss,
+#navH .fa-newspaper-o {
+  font-size: 24px;
+  color: #165ca6;
+}
+
+/* .links2:hover {
+  color: #165ca6 !important;
+  font-weight: bold;
+  background-color: #dfdbdb;
+  border-radius: 7%;
+} */
+
+/*Media query*/
+.navSocial span {
+  margin-right: 10px;
+}
+
+.navSocial span {
+  margin: 0;
+}
+
+@media (max-width: 990px) {
+  .ml-5,
+  .mx-5 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 0 !important;
+  }
+  .navbar-nav .nav-link {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .links2 {
+    margin-top: -9%;
+    margin-bottom: 5%;
+  }
+}
+
+@media (min-width: 1800px) {
+  .navbar-collapse {
+    margin-left: 15%;
+  }
+}
+
+@media (max-width: 1600px) {
+  .dropdown-menu {
+    left: -70px !important;
+  }
+}
